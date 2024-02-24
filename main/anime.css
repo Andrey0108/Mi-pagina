@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-image: url("https://i.ytimg.com/vi/Up9kyBUU-Rk/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGHIgQCgwMA8=&rs=AOn4CLBwWBWnKFBgoIjIzCfjj2JllMtawQ");
+}
+
+section {
+  gap: 5px;
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  grid-template-rows: auto;
+  grid-template-columns: repeat(3, auto);
+}
+
+.card {
+  width: 25rem;
+  height: 20rem;
+  padding: 15px;
+  text-align: start;
+  background: rgba(95, 88, 88, 0.4);
+}
+
+.slaider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: cambio 10s infinite alternate linear;
+  -webkit-animation: cambio 10s infinite alternate linear;
+}
+
+.slaider img {
+  max-width: 200px;
+  overflow: hidden;
+  position: relative;
+}
+
+@keyframes cambio {
+  0% {
+    margin-left: 0;
+  }
+
+  20% {
+    margin-left: 0;
+  }
+
+  25% {
+    margin-left: -120%;
+  }
+
+  45% {
+    margin-left: -120%;
+  }
+
+  50% {
+    margin-left: -240%;
+  }
+
+  70% {
+    margin-left: -240%;
+  }
+
+  100% {
+    margin-left: 0;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 4rem;
+  margin: 50px auto;
+  width: max-content;
+  font-family: monospace;
+}
+
+.container {
+  gap: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #000000;
+  box-shadow: 2px 6px 10px 1px rgba(1, 1, 1, 1);
+}
+
+.img {
+  height: 120px;
+  background-size: cover;
+  background-position: center;
+}
+
+.content {
+  padding: 24px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  margin-top: 24px;
+  padding: 12px 28px;
+  display: inline-block;
+  background-color: #000000;
+  border-radius: 20px;
+  -o-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+}
+
+button:hover {
+  background-color: rgb(107, 107, 107);
+}
+
+a {
+  color: #ffffff;
+}
