@@ -1,0 +1,13 @@
+.slider {
+  overflow: hidden;
+}
+
+.slider--iner {
+  display: flex;
+  /* flex-direction: row; */
+  flex-wrap: nowrap;
+}
+
+img {
+  width: 100%;
+}

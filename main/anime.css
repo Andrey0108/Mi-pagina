@@ -9,7 +9,7 @@ body {
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-image: url("https://i.ytimg.com/vi/Up9kyBUU-Rk/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGHIgQCgwMA8=&rs=AOn4CLBwWBWnKFBgoIjIzCfjj2JllMtawQ");
+  background-image: url("https://www.pixground.com/wp-content/uploads/2023/10/Anime-Sunset-Sky-AI-Generated-4K-Wallpaper.jpg");
 }
 
 section {
@@ -24,55 +24,29 @@ section {
 }
 
 .card {
-  width: 25rem;
-  height: 20rem;
+  width: 20rem;
+  height: 25rem;
   padding: 15px;
   text-align: start;
   background: rgba(95, 88, 88, 0.4);
+  border-radius: 15px;
 }
 
 .slaider {
   display: flex;
   align-items: center;
   justify-content: center;
-  animation: cambio 10s infinite alternate linear;
-  -webkit-animation: cambio 10s infinite alternate linear;
+
+  overflow: hidden;
 }
 
 .slaider img {
-  max-width: 200px;
-  overflow: hidden;
+  width: 100%;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
   position: relative;
-}
-
-@keyframes cambio {
-  0% {
-    margin-left: 0;
-  }
-
-  20% {
-    margin-left: 0;
-  }
-
-  25% {
-    margin-left: -120%;
-  }
-
-  45% {
-    margin-left: -120%;
-  }
-
-  50% {
-    margin-left: -240%;
-  }
-
-  70% {
-    margin-left: -240%;
-  }
-
-  100% {
-    margin-left: 0;
-  }
+  border-radius: 15px;
 }
 
 h1,
@@ -96,7 +70,7 @@ h6 {
   box-shadow: 2px 6px 10px 1px rgba(1, 1, 1, 1);
 }
 
-.img {
+/* .img {
   height: 120px;
   background-size: cover;
   background-position: center;
@@ -107,7 +81,7 @@ h6 {
   display: flex;
   align-items: center;
   flex-direction: column;
-}
+} */
 
 button {
   border: none;
@@ -128,5 +102,16 @@ button:hover {
 }
 
 a {
+  width: 60px;
+  height: 25px;
+
+  /* padding: 6px; */
+  display: flex;
   color: #ffffff;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  border: 5px solid black;
+  background-color: #000000;
 }

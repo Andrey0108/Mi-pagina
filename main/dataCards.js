@@ -2,8 +2,8 @@ const cards = [
   {
     slider: [
       "https://filmfilicos.com/wp-content/uploads/2019/06/1-2.png",
-      "https://www.animeunited.com.br/oomtumtu/2018/09/Golden-time-cape.png",
-      "https://www.justwatch.com/images/backdrop/265829558/s640/golden-time/golden-time",
+      // "https://www.animeunited.com.br/oomtumtu/2018/09/Golden-time-cape.png",
+      // "https://www.justwatch.com/images/backdrop/265829558/s640/golden-time/golden-time",
     ],
     titulo: "Golden time",
     estreno: "27/03/2014",
@@ -13,8 +13,8 @@ const cards = [
   {
     slider: [
       "https://tierragamer.com/wp-content/uploads/2020/09/haruhi-suzumiya-novela-ligera.jpg",
-      "https://images.justwatch.com/backdrop/183723534/s640/temporada-2/temporada-2",
-      "https://letsotaku.com/upload//upload/news/598356514460.jpg",
+      // "https://images.justwatch.com/backdrop/183723534/s640/temporada-2/temporada-2",
+      // "https://letsotaku.com/upload//upload/news/598356514460.jpg",
     ],
     titulo: "Haruhi Suzumiya",
     estreno: "02/04/2006",
@@ -24,8 +24,8 @@ const cards = [
   {
     slider: [
       "https://c4.wallpaperflare.com/wallpaper/62/879/672/anime-digital-art-artwork-2d-kimetsu-no-yaiba-hd-wallpaper-preview.jpg",
-      "https://fondosanimados.com/wp-content/uploads/2023/03/Pilars_wallpaper-1920x1080.jpg",
-      "https://w0.peakpx.com/wallpaper/802/570/HD-wallpaper-demon-slayer-kimetsu-no-yaiba-team-resolution-anime-and-background-demon-slayer-1600x900.jpg",
+      // "https://fondosanimados.com/wp-content/uploads/2023/03/Pilars_wallpaper-1920x1080.jpg",
+      // "https://w0.peakpx.com/wallpaper/802/570/HD-wallpaper-demon-slayer-kimetsu-no-yaiba-team-resolution-anime-and-background-demon-slayer-1600x900.jpg",
     ],
     titulo: "Kimetsu no Yaiba",
     estreno: "09/04/2019",
@@ -35,8 +35,8 @@ const cards = [
   {
     slider: [
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8ZqvjBRl2_8la61z21oKsdpVPLSaXAfRNbwuB25QEb1xagMAO5LNhB-oiyiH18uO5iDo&usqp=CAU",
-      "https://62ac907472.cbaul-cdnwnd.com/d0e18bcefe3f936bb5b45303cd96fab3/200000006-db7e1db7e3/F16DF5A4-59A0-4CE7-A051-4C69CA300084.jpeg?ph=62ac907472",
-      "https://lostinanime.com/wp-content/uploads/2018/01/Devilman-Crybaby-03-36.jpg",
+      // "https://62ac907472.cbaul-cdnwnd.com/d0e18bcefe3f936bb5b45303cd96fab3/200000006-db7e1db7e3/F16DF5A4-59A0-4CE7-A051-4C69CA300084.jpeg?ph=62ac907472",
+      // "https://lostinanime.com/wp-content/uploads/2018/01/Devilman-Crybaby-03-36.jpg",
     ],
     titulo: "Devilman",
     estreno: "05/01/2018",
@@ -57,8 +57,8 @@ const cards = [
   {
     slider: [
       "https://m.media-amazon.com/images/S/pv-target-images/cc6652f5808536c9b16791a336b57ce9406a9daa73ae64ae44861a17cb443c5c.jpg",
-      "https://bateszi.me/wp-content/uploads/2019/01/dororo-anime-episode-3-image-0501.jpg",
-      "https://d17lbu6bbzbdc8.cloudfront.net/wp-content/uploads/2019/08/10220943/Dororo-animacao.jpg",
+      // "https://bateszi.me/wp-content/uploads/2019/01/dororo-anime-episode-3-image-0501.jpg",
+      // "https://d17lbu6bbzbdc8.cloudfront.net/wp-content/uploads/2019/08/10220943/Dororo-animacao.jpg",
     ],
     titulo: "Dororo",
     estreno: "07/01/2019",
