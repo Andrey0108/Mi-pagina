@@ -12,6 +12,10 @@ body {
   background-image: url("https://www.pixground.com/wp-content/uploads/2023/10/Anime-Sunset-Sky-AI-Generated-4K-Wallpaper.jpg");
 }
 
+marquee h1 {
+  color: #ffffff;
+}
+
 section {
   gap: 5px;
   width: 100vw;
@@ -41,12 +45,12 @@ section {
 }
 
 .slaider img {
-  width: 100%;
+  width: 320px;
   height: 200px;
   background-size: cover;
   background-position: center;
   position: relative;
-  border-radius: 15px;
+  border-radius: 20px;
 }
 
 h1,
@@ -68,6 +72,13 @@ h6 {
   justify-content: center;
   border: 2px solid #000000;
   box-shadow: 2px 6px 10px 1px rgba(1, 1, 1, 1);
+}
+
+span {
+  color: #ffffff;
+  text-align: center;
+  display: grid;
+  font-size: large;
 }
 
 /* .img {

@@ -46,8 +46,8 @@ const cards = [
   {
     slider: [
       "https://i.pinimg.com/originals/15/5b/46/155b4671455bef3ddc6a507260cf9c6c.jpg",
-      "https://cdn.alfabetajuega.com/alfabetajuega/2023/07/hellsing-es-una-historia-que-relata-la-gran-batalla-entre-los-humanos-al-servicio-del-imperio-britanico-con-ayuda-de-alucard-en-contra-de-los-seres-no-muertos-del-infierno.jpg",
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpTHTYYx20FQ9YzQiVD_iVVm4GDGG4JvGjtg&usqp=CAU",
+      // "https://cdn.alfabetajuega.com/alfabetajuega/2023/07/hellsing-es-una-historia-que-relata-la-gran-batalla-entre-los-humanos-al-servicio-del-imperio-britanico-con-ayuda-de-alucard-en-contra-de-los-seres-no-muertos-del-infierno.jpg",
+      // "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpTHTYYx20FQ9YzQiVD_iVVm4GDGG4JvGjtg&usqp=CAU",
     ],
     titulo: "Hellsing",
     estreno: "02/05/1997",
